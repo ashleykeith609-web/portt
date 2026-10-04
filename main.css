@@ -1,38 +1,38 @@
 @font-face {
-    src: url("fonts/Eurocat-Medium.woff") format("woff"),
-         url("fonts/EurocatSansVF.ttf") format("ttf"),
-         url('fonts/Eurocat-Medium.woff2') format('woff2');
+    src: url("fonts/") format("otf"),
+         url("fonts/ITC\ Machine\ Std\ Bold.otf Machine Std Bold.otf") format("ttf"),
+         url('fonts/ITC\ Machine\ Std\ Bold.otf') format('otf');
 
-    font-family: 'Eurocat';
+    font-family: 'Machine';
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
-    src: url("fonts/Jost-Light.ttf") format("truetype");
-    font-family: 'Jost';
+    src: url("fonts/ITC\ Machine\ Std\ Bold.otf") format("truetype");
+    font-family: 'Machine';
     font-weight: light;
 }
     
 @font-face {
-    font-family: 'Eurocat-Regular';
-    src: url("fonts/Eurocat-Regular.woff") format("woff"),
-         url('fonts/Eurocat-Regular.otf') format("otf"),
-         url('fonts/Eurocat-Regular.woff2') format('woff2');
+    font-family: 'Machine-Regular';
+    src: url("fonts/") format("otf"),
+         url("fonts/ITC\ Machine\ Std\ Bold.otf Machine Std Bold.otf") format("ttf"),
+         url('fonts/ITC\ Machine\ Std\ Bold.otf') format('otf');
 }
 
 @font-face {
-    font-family: 'EurocatSans-Regular';
-    src: url("fonts/EurocatSans-Regular.woff") format("woff"),
-         url('fonts/EurocatSans-Regular.otf') format("otf"),
-         url('fonts/EurocatSans-Regular.woff2') format('woff2');
+    font-family: 'Machine';
+    src: url("fonts/") format("otf"),
+         url("fonts/ITC\ Machine\ Std\ Bold.otf Machine Std Bold.otf") format("ttf"),
+         url('fonts/ITC\ Machine\ Std\ Bold.otf') format('otf');
 }
 
 @font-face {    
-    font-family: 'EurocatBase-Regular';
-    src: url("fonts/EurocatBase-Regular.woff") format("woff"),
-         url('fonts/EurocatBasVF.otf') format("ttf"),
-         url('fonts/EurocatBase-Regular.woff2') format('woff2');
+    font-family: 'Machine';
+    src: url("fonts/") format("otf"),
+         url("fonts/ITC\ Machine\ Std\ Bold.otf Machine Std Bold.otf") format("ttf"),
+         url('fonts/ITC\ Machine\ Std\ Bold.otf') format('otf');
 }
 
 body {
