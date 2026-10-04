@@ -1,0 +1,373 @@
+@font-face {
+    src: url("fonts/Eurocat-Medium.woff") format("woff"),
+         url("fonts/EurocatSansVF.ttf") format("ttf"),
+         url('fonts/Eurocat-Medium.woff2') format('woff2');
+
+    font-family: 'Eurocat';
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    src: url("fonts/Jost-Light.ttf") format("truetype");
+    font-family: 'Jost';
+    font-weight: light;
+}
+    
+@font-face {
+    font-family: 'Eurocat-Regular';
+    src: url("fonts/Eurocat-Regular.woff") format("woff"),
+         url('fonts/Eurocat-Regular.otf') format("otf"),
+         url('fonts/Eurocat-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'EurocatSans-Regular';
+    src: url("fonts/EurocatSans-Regular.woff") format("woff"),
+         url('fonts/EurocatSans-Regular.otf') format("otf"),
+         url('fonts/EurocatSans-Regular.woff2') format('woff2');
+}
+
+@font-face {    
+    font-family: 'EurocatBase-Regular';
+    src: url("fonts/EurocatBase-Regular.woff") format("woff"),
+         url('fonts/EurocatBasVF.otf') format("ttf"),
+         url('fonts/EurocatBase-Regular.woff2') format('woff2');
+}
+
+body {
+    background-color: #7e7ece;
+    font-family: 'Eurocat'; 
+}
+
+.variations-container {
+    display: grid;
+    grid-area:auto; 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    
+}
+        
+
+    .font1 {
+        /* align-self: start; */
+        font-family: 'EurocatBase-Regular';
+        color:antiquewhite
+    }
+    .header1 {
+        /* align-self: start; */
+        font-family: 'Eurocat-Regular';
+        color:antiquewhite
+    }
+      
+
+    .font2 {
+        /* align-self: start; */
+        font-family: 'EurocatSans-Regular';
+        color:antiquewhite
+      }
+
+      .header2 {
+        /* align-self: start; */
+        font-family: 'Eurocat-Regular';
+        color:antiquewhite
+    }
+
+    .font3 {
+        /* align-self: start; */
+        font-family: 'Eurocat-Regular';
+        color:antiquewhite
+    }
+    .header3 {
+        /* align-self: start; */
+        font-family: 'Eurocat-Regular';
+        color:antiquewhite
+    }
+      
+
+    .paragraphs {
+        display: flex;
+    }
+      
+    .paragraphs p {
+        flex: 1;
+        margin-right: 10px; /* Adjust as needed */
+    }
+    
+    
+ 
+
+    
+/* how the page wrapper will appear on mobile */
+.page-wrapper{
+    width: min(100% - 3rem, 80ch);
+    margin-inline: auto;
+}
+/* how the page wrapper appears on desktop */
+
+/* @media only screen and (min-width:800px){
+    .page-wrapper{
+        display: grid;
+        grid-gap: 25px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "h v"
+            "a a";
+    }
+
+    .history {
+        grid-area: h;
+    }
+
+    .variations{
+        grid-area: v;
+    }
+
+    .alphabet {
+        grid-area: a;
+    }
+}
+
+/* CSS for the footer */
+footer{
+    background-color: gray;
+}
+
+/* variable font animation */
+h1 {
+    font-weight:100; 
+    text-align: center;
+    font-size: 8em;
+    animation: weightChange 5s infinite;
+}
+
+@keyframes weightChange {
+    0%, 100%{
+        font-weight:100;
+    }
+    50%{font-weight:700;
+    }
+    
+}
+
+/* variable font that changes on hover */
+.variable-font {
+    font-weight: 1;
+    height: 100vh;
+    font-size: 10em;
+    display: grid;
+    place-content: center;
+    margin: 0;
+    text-align: center;
+    font-variation-settings: "wght" 40, "wdth" 0, "XXXX" 1;
+    transition: 
+        font-weight 500ms,
+        font-variation-settings 3s;
+}
+
+.variable-font:hover{
+    font-weight:500 ;
+    height:100vh;
+    font-size: 7em;
+    display:grid;
+    place-content: center;
+    margin: 3;
+    text-align: center;
+    font-variation-settings: "wght" 120, "wdth" 0, "XXXX" 100;
+}
+
+
+
+
+.content {
+    grid-area: c;
+}
+
+footer {
+    grid-area: f;
+    padding: 20px;
+    background-color: #7e7ece;
+    font-family: "EurocatSans-regular";
+    text-align: center;
+}
+
+#fontdisplay {
+    padding: 0em 11em;
+    
+}
+
+.paragraphs > p {
+    text-align:justify;
+    margin: 0em 3em;
+    padding-right: 4em; 
+    padding-left: 4em;
+  }
+
+.variations {
+    font-family: 'EurocatSans-Regular';
+    color:#000084
+
+}
+.history {
+    font-family: 'EurocatSans-Regular';
+    color:white
+
+
+}
+.history2 {
+    font-family: 'EurocatSans-Regular';
+    color:white
+        
+}
+
+
+
+  
+.stuff{
+    font-family: "Jost";
+    color:white;
+    margin: 0em 7em;
+}
+
+.stuff > p {
+    text-align:center, justify;
+    margin: 0em 3em;
+    padding: 0em 3em;
+    padding-right: 5em; 
+    padding-left: 5em;
+}
+
+.shadow {
+    background-color: #0015ff;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    position:relative 
+}
+.shadow {
+
+    bottom: -1100px; 
+    right: -1500px;  
+    padding: 10px 20px;
+}
+
+.shadow:hover {
+    background-color: #000479;
+}
+
+.shadow{
+    font-family: 'EurocatBase-Regular';
+    color: white
+}
+
+.Eurocat_Title {
+    font-family: 'EurocatBase-Regular';
+    color: white
+}
+
+.Eurocat_Title{
+    font-weight:1 ;
+    height:100vh;
+    font-size: 10em;
+    display:grid;
+    place-content: center;
+    margin: 0;
+    text-align: center;
+    font-variation-settings: "wght" 40, "wdth" 0, "XXXX" 1;
+
+
+    transition: 
+        font-weight 500ms,
+        font-variation-settings 3s;
+        /*font-family: 'EurocatSans' 'EurocatBase' 'Eurocat'; */
+
+}
+
+
+h5{
+            font-weight:100; 
+            text-align: center;
+            font-size: 8em;
+            animation: weightChange 5s infinite;
+            color: white
+            
+        }
+        
+        @keyframes weightChange {
+            0%, 100%{
+                font-weight:100;
+            }
+            50%{font-weight:700;
+                color: blue;
+               
+            }
+            
+            
+}
+.Info1 {
+font-family: "Jost";
+text-align: justify;
+color: white
+
+
+}
+
+.Info2 {
+font-family: "Jost";
+color: white
+
+}
+
+.Info3 {
+font-family: "Jost";
+color: white
+
+}
+
+.Info4{
+font-family: "Jost";
+color: white
+
+}
+
+
+
+
+/*.container {
+    display: inline-flex; 
+}.half-width3,
+.half-width4 {
+  width: 0%;
+  margin: 0em 2em; 
+  padding-right: 4em; 
+  padding-left:  8em;
+}.left-justified3,
+.left-justified4{
+    text-align: left;
+    color: white;
+    font-family: 'EurocatBase-Regular';
+  }
+
+  .container {
+    display: inline-flex; 
+}.half-width,
+.half-width2{
+  width: 60%;
+  margin: 2em 3em;  
+  padding-right: 2em;
+  padding-left: 4em; 
+}
+
+.left-justified,
+.left-justified2{
+    text-align: left;
+    color: white;
+    font-family: 'EurocatBase-Regular';
+  }
+
