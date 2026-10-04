@@ -1,15 +1,16 @@
 @font-face {
+    font-family: 'Machine-Regular';
     src: url("fonts/") format("otf"),
-         url("fonts/ITC\ Machine\ Std\ Bold.otf Machine Std Bold.otf") format("ttf"),
+         url("fonts/ITC\ Machine\ Std\ Bold.otf Machine Std Bold.otf") format("otf"),
          url('fonts/ITC\ Machine\ Std\ Bold.otf') format('otf');
 
-    font-family: 'Machine';
+    font-family: 'Machine-Regular';
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
-    src: url("fonts/ITC\ Machine\ Std\ Bold.otf") format("truetype");
+    src: url("fonts/ITC\ Machine\ Std\ Bold.otf") format("otf");
     font-family: 'Machine';
     font-weight: light;
 }
@@ -37,7 +38,7 @@
 
 body {
     background-color: #7e7ece;
-    font-family: 'Machine-Regula'; 
+    font-family: 'Machine-Regular'; 
 }
 
 .variations-container {
