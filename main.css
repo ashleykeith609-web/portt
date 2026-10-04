@@ -37,7 +37,7 @@
 
 body {
     background-color: #7e7ece;
-    font-family: 'Eurocat'; 
+    font-family: 'Machine-Regula'; 
 }
 
 .variations-container {
@@ -52,36 +52,36 @@ body {
 
     .font1 {
         /* align-self: start; */
-        font-family: 'EurocatBase-Regular';
-        color:antiquewhite
+        font-family: 'Machine-Regular';
+        color:rgb(254, 254, 254)
     }
     .header1 {
         /* align-self: start; */
-        font-family: 'Eurocat-Regular';
-        color:antiquewhite
+        font-family: 'Machine-Regular';
+        color:rgb(134, 136, 240)
     }
       
 
     .font2 {
         /* align-self: start; */
-        font-family: 'EurocatSans-Regular';
+        font-family: 'Machine-Regular';
         color:antiquewhite
       }
 
       .header2 {
         /* align-self: start; */
-        font-family: 'Eurocat-Regular';
-        color:antiquewhite
+        font-family: 'Machine-Regular';
+        color:rgb(178, 142, 245)
     }
 
     .font3 {
         /* align-self: start; */
-        font-family: 'Eurocat-Regular';
+        font-family: 'Machine-Regular';
         color:antiquewhite
     }
     .header3 {
         /* align-self: start; */
-        font-family: 'Eurocat-Regular';
+        font-family: 'EMachine-Regularr';
         color:antiquewhite
     }
       
@@ -132,7 +132,7 @@ body {
 
 /* CSS for the footer */
 footer{
-    background-color: gray;
+    background-color: rgb(159, 154, 244);
 }
 
 /* variable font animation */
@@ -189,7 +189,7 @@ footer {
     grid-area: f;
     padding: 20px;
     background-color: #7e7ece;
-    font-family: "EurocatSans-regular";
+    font-family: "Machine-Regular";
     text-align: center;
 }
 
@@ -206,18 +206,18 @@ footer {
   }
 
 .variations {
-    font-family: 'EurocatSans-Regular';
+    font-family: 'Machine-Regular';
     color:#000084
 
 }
 .history {
-    font-family: 'EurocatSans-Regular';
+    font-family: 'Machine-Regular';
     color:white
 
 
 }
 .history2 {
-    font-family: 'EurocatSans-Regular';
+    font-family: 'Machine-Regular';
     color:white
         
 }
@@ -240,7 +240,7 @@ footer {
 }
 
 .shadow {
-    background-color: #0015ff;
+    background-color: #3a44b2;
     color: #fff;
     border: none;
     border-radius: 50px;
@@ -258,20 +258,20 @@ footer {
 }
 
 .shadow:hover {
-    background-color: #000479;
+    background-color: hsl(247, 46%, 51%);
 }
 
 .shadow{
-    font-family: 'EurocatBase-Regular';
+    font-family: 'Machine-Regular';
     color: white
 }
 
-.Eurocat_Title {
-    font-family: 'EurocatBase-Regular';
+.Machine_Title{
+    font-family: 'Machine-Regular';
     color: white
 }
 
-.Eurocat_Title{
+.Machine_Title{
     font-weight:1 ;
     height:100vh;
     font-size: 10em;
@@ -311,7 +311,7 @@ h5{
             
 }
 .Info1 {
-font-family: "Jost";
+font-family: "MMachine";
 text-align: justify;
 color: white
 
@@ -319,19 +319,19 @@ color: white
 }
 
 .Info2 {
-font-family: "Jost";
+font-family: "Machine-Regular";
 color: white
 
 }
 
 .Info3 {
-font-family: "Jost";
+font-family: "Machine-Regular";
 color: white
 
 }
 
 .Info4{
-font-family: "Jost";
+font-family: "Machine-Regular";
 color: white
 
 }
